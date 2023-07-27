@@ -1,0 +1,13 @@
+{
+  "name": "RyFetchDog",
+  "apiname": "Ry_Fetch_Dog",
+  "apexclass": null,
+  "callback": null,
+  "flowhandler": null,
+  "imagename": "copado-function-core:v1",
+  "type": "Custom",
+  "timeout": 60,
+  "size": "S",
+  "version": "1",
+  "parameters": []
+}
