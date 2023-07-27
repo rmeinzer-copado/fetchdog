@@ -1,6 +1,7 @@
-
-fetch('https://api.giphy.com/v1/gifs/search?q=dogs&api_key=cwxQISXRJJ5EO5nAW0kfohP1RSmK2PSE&rating=g')
-.then(response => response.json())
-.then(json =>
-console.log(json.data[1].title)
-)
+fetch(
+  'https://api.giphy.com/v1/gifs/search?q=dogs&api_key=cwxQISXRJJ5EO5nAW0kfohP1RSmK2PSE&rating=g')
+  .then(response => response.json())
+  .then(json =>
+    // log third dog  
+    console.log(json.data[2].title)
+  )
